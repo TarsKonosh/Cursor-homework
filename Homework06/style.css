@@ -739,6 +739,7 @@ h6 {
     border-radius: 50px;
     background-color:#ecdaff;
     padding: 20px;
+    cursor: pointer;
 }
 
 .contact_us {
