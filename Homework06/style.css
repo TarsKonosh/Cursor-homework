@@ -726,20 +726,23 @@ h6 {
     margin: 0;
 }
 
+.contact_support_block {
+    display: flex;
+}
+
 .contact_support {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: #9C69E2;
-    opacity: 0.2;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50px;
+    background-color:#ecdaff;
+    padding: 20px;
 }
 
 .contact_us {
     width: 30px;
     height: 24px;
-    border-radius: 30%;
-    background: #42009e;
+    color: violet;
 }
