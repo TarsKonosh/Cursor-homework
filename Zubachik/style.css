@@ -1,6 +1,6 @@
 body {  
     width: 1440px;
-    height: 3740px;
+    height: 100%;
     background: #F5F5F5; 
     margin: 0 auto;
 }
@@ -12,6 +12,8 @@ body {
     flex-direction: row;
     justify-content: space-around;
 }
+
+
 
 
 h3 {
@@ -103,12 +105,33 @@ h3 {
     color: purple;
 }
 
+/* .section_flex{
+    display: flex;
+    flex-direction: row-reverse;
+} */
+
 .admire_stylish_img {
+    display: flex;
+    justify-content: space-between;
     width: 1440px;
     height: 570px;
     background: url(./img/00db241ff6f98729762e88ee05be3a4c\ \(1\).jpg);
     background-size: cover;
 }
+
+.lion_logo{
+    height: 520px;
+    width: 530px;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: -15%;
+}
+
+.lviv_neon_shop_flex{
+    display: flex;
+    flex-flow: wrap;
+}
+
 
 h1 {
     width: 361px;
@@ -118,9 +141,9 @@ h1 {
     font-family: "Playfair Display";
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 50px;
     line-height: 67px;
-    color: #ffffff;
+    color: black;
     margin: 0;
 }
 
@@ -133,9 +156,9 @@ h1 {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: black;
     margin: 0;
 }
 
@@ -297,6 +320,7 @@ h1 {
     grid-column: 2 / span 3;
     background: url(./img/For_order.jpg);
     background-size: cover;
+    border-radius: 30px;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -535,7 +559,7 @@ h1 {
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
-    color: #5C5C5C;
+    color: #8E8E93;
 }
 
 
@@ -545,7 +569,7 @@ h1 {
     font-weight: 900;
     font-size: 18px;
     line-height: 30px;
-    color: #000000;
+    color: black;
     margin: 0;
 }
 
